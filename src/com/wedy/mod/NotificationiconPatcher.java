@@ -109,10 +109,14 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit{
 		if(isHideime){
 				        XResources.setSystemWideReplacement("android", "bool", "config_camera_sound_forced", false);
 		}
-		boolean isKitkat = preference.getBoolean("key_logochange", false);
-		if(isKitkat){
-				        XResources.setSystemWideReplacement("android", "drawable", "platlogo", modRes.fwd(R.drawable.platlogo));
-				        XResources.setSystemWideReplacement("android", "drawable", "platlogo_alt", modRes.fwd(R.drawable.platlogo));
+		boolean isGlove = preference.getBoolean("key_glove", false);
+		if(isGlove){
+				        XResources.setSystemWideReplacement("android", "bool", "config_enable_glove_mode", true);
+		}
+		boolean isLtedbmc = preference.getBoolean("key_navbar", false);
+		if(isLtedbmc){
+				        XResources.setSystemWideReplacement("android", "dimen", "navigation_bar_height", modRes.fwd(R.dimen.navigation_bar_height));
+				        XResources.setSystemWideReplacement("android", "dimen", "navigation_bar_height_landscape", modRes.fwd(R.dimen.navigation_bar_height_landscape));
 		}
 		boolean isMonxs = preference.getBoolean("key_monx", false);
 

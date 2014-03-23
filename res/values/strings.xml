@@ -42,8 +42,10 @@
     <string name="sum_prefapn">Do not prefer APN.</string>
     <string name="label_hideime">Don\'t force camera sound</string>
     <string name="sum_hideime">Show shutter sound setting in camera.</string>
-    <string name="label_logochange">Kitkat logo on JB</string>
-    <string name="sum_logochange">Replace Jelly Bean\'s logo to Kitkat.</string>
+    <string name="label_glove">Show glove mode setting</string>
+    <string name="sum_glove">Show glove mode setting</string>
+    <string name="label_navbar">Navbar 36dpi</string>
+    <string name="sum_navbar">Change navbar height</string>
     
     <string name="label_monxz1">"Translate monXdifiedZ's power menu to Japanese"</string>
     <string name="sum_monxz1">"Translate Honam1Z\'s power menu to Japanese."</string>
