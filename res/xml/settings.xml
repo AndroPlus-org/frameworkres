@@ -58,6 +58,11 @@
 	    android:summary="@string/sum_ime"
 	    android:defaultValue="false"/>
 	    <CheckBoxPreference
+	    android:key="key_boost"
+	    android:title="@string/label_boost"
+	    android:summary="@string/sum_boost"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
 	    android:key="key_lockmenu"
 	    android:title="@string/label_lockmenu"
 	    android:summary="@string/sum_lockmenu"

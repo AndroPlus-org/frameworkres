@@ -46,6 +46,8 @@
     <string name="sum_glove">Show glove mode setting</string>
     <string name="label_navbar">Navbar 36dpi</string>
     <string name="sum_navbar">Change navbar height</string>
+    <string name="label_boost">CPU boost for overscroller fing</string>
+    <string name="sum_boost">"Experimental, I don't know if it really works."</string>
     
     <string name="label_monxz1">"Translate monXdifiedZ's power menu to Japanese"</string>
     <string name="sum_monxz1">"Translate Honam1Z\'s power menu to Japanese."</string>

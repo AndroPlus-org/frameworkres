@@ -25,7 +25,7 @@
     <string name="sum_notifbg">通知領域のアプリのアイコンの背景を透過します。</string>
     <string name="sum_monx">HONAMiXZで追加された電源メニューの文字列を日本語化します。</string>
     <string name="label_voice">セルスタンバイ対策</string>
-    <string name="sum_voice">データ専用SIMでのセルスタンバイ対策をします。\n音声通話が可能なSIMでは必要ないので有効にしないでください。</string>
+    <string name="sum_voice">データ専用SIMでのセルスタンバイ対策をします。\n音声通話が可能なSIMでは必要ないので有効にしないでください。\n通話ができなくなります。</string>
     <string name="label_unplugdock">ドック接続時の自動回転を無効にする</string>
     <string name="sum_unplugdock">ドック(クレードル)接続時に強制的に画面の自動回転が有効になるのを無効にします。</string>
     <string name="label_lockrot">ロック画面での回転を許可</string>
@@ -40,6 +40,8 @@
     <string name="sum_glove">手ぶくろモード設定を表示します。</string>
     <string name="label_navbar">ナビバーを36dpiに変更</string>
     <string name="sum_navbar">ナビバーの高さを変更します。</string>
+    <string name="label_boost">オーバースクローラフリックでCPUをブーストする</string>
+    <string name="sum_boost">実験的:実際に動作しているか不明です。</string>
     
     <string name="label_monxz1">"Honam1Zの電源メニュー日本語化"</string>
     <string name="sum_monxz1">"monxDIFIED Honam1Zで追加された電源メニューの文字列を日本語化します。"</string>
