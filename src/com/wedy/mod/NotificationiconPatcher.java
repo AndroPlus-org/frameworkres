@@ -1,13 +1,18 @@
 package com.wedy.mod;
 
+import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
 import android.content.res.XModuleResources;
 import android.content.res.XResources;
 import android.os.Build;
+import de.robv.android.xposed.IXposedHookLoadPackage;
 import de.robv.android.xposed.IXposedHookZygoteInit;
+import de.robv.android.xposed.XC_MethodHook;
 import de.robv.android.xposed.XSharedPreferences;
 import de.robv.android.xposed.XposedBridge;
+import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
 
-public class NotificationiconPatcher implements IXposedHookZygoteInit {
+
+public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHookLoadPackage {
 	private static XSharedPreferences preference = null;
 	private static String modulePath = null;
 
@@ -221,4 +226,61 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit {
 		}
 
 	}
+	
+	@Override
+	public void handleLoadPackage(LoadPackageParam lpparam) throws Throwable
+	{
+		switch(lpparam.packageName)
+		{
+			case "android":
+				hookPowerManager(lpparam);
+				break;
+			
+		}
+	}
+	public void hookPowerManager(LoadPackageParam lpparam)
+		{
+		boolean isUnplug = preference.getBoolean("key_unplugon", false);
+		if(isUnplug){
+			try
+			{
+				Object[] signature = new Object[2];
+				signature[0] = long.class;
+				signature[1] = new XC_MethodHook() {
+					@Override
+					protected void beforeHookedMethod(MethodHookParam param) throws Throwable
+					{
+						try
+						{
+							final String className = "com.android.server.DockObserver";
+							final String methodName = "onUEvent";
+							
+							// The first elements are getThreadStackTrace, getStackTrace, beforeHookedMethod,
+							// handleHookedMethod, PowerManagerService.wakeUp and PowerManager.wakeUp
+							final StackTraceElement caller = Thread.currentThread().getStackTrace()[6];
+							
+							if(caller.getClassName().equals(className) && caller.getMethodName().equals(methodName))
+							{
+								// Don't call wakeUp if the caller is DockObserver.onUEvent
+								param.setResult(null);
+							}
+						}
+						catch(Throwable ignore)
+						{
+						}
+					}
+				};
+				
+				final String pm = "com.android.server.power.PowerManagerService";
+				findAndHookMethod(pm, lpparam.classLoader, "wakeUp", signature);
+			}
+			catch(Throwable t)
+			{
+				XposedBridge.log(t);
+			}
+		}
+		}
+	
+	
+	
 }
