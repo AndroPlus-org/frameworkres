@@ -10,7 +10,7 @@
     <string name="label_noisy">音量の警告を無効化</string>
     <string name="label_volsound">音量変更時の効果音を無効化</string>
     <string name="label_skipnet">"3G固定できるようにする(かも)"</string>
-    <string name="label_dim">明るさの最低値を10にする</string>
+    <string name="label_dim">明るさの最低値を5にする</string>
     <string name="label_ime">「入力方法の選択」を非表示</string>
     <string name="label_notifbg">通知アイコンの背景を透明にする</string>
     <string name="label_monx">monXdifiedZの電源メニュー日本語化</string>
@@ -42,6 +42,8 @@
     <string name="sum_navbar">ナビバーの高さを変更します。</string>
     <string name="label_boost">オーバースクローラフリックでCPUをブーストする</string>
     <string name="sum_boost">実験的:実際に動作しているか不明です。</string>
+    <string name="label_autob">明るさの自動調整レベルを半減する</string>
+    <string name="sum_autob">画面の明るさの自動調整レベルを半減します。</string>
     
     <string name="label_monxz1">"Honam1Zの電源メニュー日本語化"</string>
     <string name="sum_monxz1">"monxDIFIED Honam1Zで追加された電源メニューの文字列を日本語化します。"</string>

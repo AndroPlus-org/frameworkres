@@ -4,8 +4,8 @@ import android.content.res.XModuleResources;
 import android.content.res.XResources;
 import android.os.Build;
 import de.robv.android.xposed.IXposedHookZygoteInit;
-import de.robv.android.xposed.XposedBridge;
 import de.robv.android.xposed.XSharedPreferences;
+import de.robv.android.xposed.XposedBridge;
 
 public class NotificationiconPatcher implements IXposedHookZygoteInit {
 	private static XSharedPreferences preference = null;
@@ -46,7 +46,7 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit {
 		if (isUnplug) {
 			XResources.setSystemWideReplacement("android", "bool",
 					"config_unplugTurnsOnScreen",
-					modRes.fwd(R.bool.config_unplugTurnsOnScreen));
+					false);
 			XResources.setSystemWideReplacement("android", "integer",
 					"config_deskDockKeepsScreenOn", 0);
 			XResources.setSystemWideReplacement("android", "integer",
@@ -106,8 +106,12 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit {
 					modRes.fwd(R.integer.config_screenBrightnessDim));
 			XposedBridge.log("Wedy: min dim 10 for 4.1");
 		} else if (isDimc && Build.VERSION.SDK_INT >= 17) {
-			XResources
-					.setSystemWideReplacement(
+			XResources.setSystemWideReplacement(
+							"android",
+							"integer",
+							"config_screenBrightnessDim",
+							modRes.fwd(R.integer.config_screenBrightnessDim));
+			XResources.setSystemWideReplacement(
 							"android",
 							"integer",
 							"config_screenBrightnessSettingMinimum",
@@ -172,6 +176,17 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit {
 					"navigation_bar_height_landscape",
 					modRes.fwd(R.dimen.navigation_bar_height_landscape));
 		}
+		boolean isAutob = preference.getBoolean("key_autob", false);
+		if (isAutob) {
+			XResources.setSystemWideReplacement("android", "array",
+					"config_autoBrightnessLevels",
+					modRes.fwd(R.array.config_autoBrightnessLevels));
+			XResources.setSystemWideReplacement("android", "array",
+					"config_autoBrightnessLcdBacklightValues",
+					modRes.fwd(R.array.config_autoBrightnessLcdBacklightValues));
+		}
+		
+		
 		boolean isMonxs = preference.getBoolean("key_monx", false);
 
 		if (isMonxs) {

@@ -88,10 +88,15 @@
 	    android:summary="@string/sum_glove"
 	    android:defaultValue="false"/>
 	    <CheckBoxPreference
+	    android:key="key_autob"
+	    android:title="@string/label_autob"
+	    android:summary="@string/sum_autob"
+	    android:defaultValue="false"/>
+	    <!-- <CheckBoxPreference
 	    android:key="key_navbar"
 	    android:title="@string/label_navbar"
 	    android:summary="@string/sum_navbar"
-	    android:defaultValue="false"/>
+	    android:defaultValue="false"/> -->
 	    <CheckBoxPreference
 	    android:key="key_monx"
 	    android:title="@string/label_monx"

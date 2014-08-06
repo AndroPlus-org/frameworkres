@@ -16,7 +16,7 @@
     <string name="label_noisy">Disable warning for big volume</string>
     <string name="label_volsound">Disable volume change sound</string>
     <string name="label_skipnet">"Skip restoring network mode"</string>
-    <string name="label_dim">Change min brightness level to 10</string>
+    <string name="label_dim">Change min brightness level to 5</string>
     <string name="label_ime">"Disable \"Choose input method\" notification"</string>
     <string name="label_notifbg">Make notification drawer icon bg transparent</string>
     <string name="label_monx">"Translate monXdifiedZ's power menu to Japanese"</string>
@@ -48,6 +48,8 @@
     <string name="sum_navbar">Change navbar height</string>
     <string name="label_boost">CPU boost for overscroller fing</string>
     <string name="sum_boost">"Experimental, I don't know if it really works."</string>
+    <string name="label_autob">Lower auto brightness</string>
+    <string name="sum_autob">Reduce auto brightnesss levels by half.</string>
     
     <string name="label_monxz1">"Translate monXdifiedZ's power menu to Japanese"</string>
     <string name="sum_monxz1">"Translate Honam1Z\'s power menu to Japanese."</string>
