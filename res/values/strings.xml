@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WedyMod-res</string>
+    <string name="app_name" translatable="false">WedyMod-res</string>
     <string name="app_description">"Change values of framework-res.apk. Tap here to configure settings."</string>
-    <string name="global_action_reboot_normal">再起動</string>
-    <string name="global_action_reboot_title">再起動オプション</string>
-    <string name="global_action_fullscreen_toggle">全画面トグル</string>
+    <string name="global_action_reboot_normal" translatable="false">再起動</string>
+    <string name="global_action_reboot_title" translatable="false">再起動オプション</string>
+    <string name="global_action_fullscreen_toggle" translatable="false">全画面トグル</string>
     
-    <string name="global_action_reboot_hotreboot">ホットリブート</string>
-    <string name="global_action_reboot_recovery">リカバリ</string>
+    <string name="global_action_reboot_hotreboot" translatable="false">ホットリブート</string>
+    <string name="global_action_reboot_recovery" translatable="false">リカバリ</string>
         
     <string name="label_settings">WedyMod</string>
     <string name="label_icontext">Show text beside icon on action bar</string>
