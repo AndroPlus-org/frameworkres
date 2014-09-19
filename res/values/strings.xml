@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">WedyMod-res</string>
     <string name="app_description">"Change values of framework-res.apk. Tap here to configure settings."</string>
-    <string name="global_action_reboot_normal" translatable="false">再起動</string>
-    <string name="global_action_reboot_title" translatable="false">再起動オプション</string>
-    <string name="global_action_fullscreen_toggle" translatable="false">全画面トグル</string>
-    
-    <string name="global_action_reboot_hotreboot" translatable="false">ホットリブート</string>
-    <string name="global_action_reboot_recovery" translatable="false">リカバリ</string>
-        
     <string name="label_settings">WedyMod</string>
     <string name="label_icontext">Show text beside icon on action bar</string>
     <string name="label_ledoff">Turn off LED when charge completed</string>
@@ -50,10 +42,8 @@
     <string name="sum_boost">"Experimental, I don't know if it really works."</string>
     <string name="label_autob">Lower auto brightness</string>
     <string name="sum_autob">Reduce auto brightnesss levels by half.</string>
-    
     <string name="label_monxz1">"Translate monXdifiedZ's power menu to Japanese"</string>
     <string name="sum_monxz1">"Translate Honam1Z\'s power menu to Japanese."</string>
-    
     <string name="label_rebootaf">Note</string>
     <string name="nosum">You may need to reboot for changes to take effect.</string>
     <string name="mesum">"@WedyDQ10"</string>

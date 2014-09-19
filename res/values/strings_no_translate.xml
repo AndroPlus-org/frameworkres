@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">WedyMod-res</string>
+    <string name="global_action_reboot_normal" translatable="false">再起動</string>
+    <string name="global_action_reboot_title" translatable="false">再起動オプション</string>
+    <string name="global_action_fullscreen_toggle" translatable="false">全画面トグル</string>
+    
+    <string name="global_action_reboot_hotreboot" translatable="false">ホットリブート</string>
+    <string name="global_action_reboot_recovery" translatable="false">リカバリ</string>
+  
+</resources>
