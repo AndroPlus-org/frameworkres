@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/arrays.xml -->
+    <eat-comment/>
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>35</item>
+        <item>55</item>
+        <item>80</item>
+        <item>100</item>
+        <item>128</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>5</item>
+        <item>15</item>
+        <item>30</item>
+        <item>50</item>
+        <item>50</item>
+        <item>70</item>
+        <item>128</item>
+    </integer-array>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/bools.xml -->
+    <eat-comment/>
+    <bool name="config_allowActionMenuItemTextWithIcon">true</bool>
+    <bool name="config_carDockEnablesAccelerometer">false</bool>
+    <bool name="config_deskDockEnablesAccelerometer">false</bool>
+    <bool name="config_disableMenuKeyInLockScreen">false</bool>
+    <bool name="config_dontPreferApn">true</bool>
+    <bool name="config_enableLockScreenRotation">true</bool>
+    <bool name="config_led_off_when_battery_fully_charged">true</bool>
+    <bool name="config_sendAudioBecomingNoisy">false</bool>
+    <bool name="config_unplugTurnsOnScreen">false</bool>
+    <bool name="config_useVolumeKeySounds">false</bool>
+    <bool name="config_voice_capable">false</bool>
+    <bool name="lockscreen_isPortrait">false</bool>
+    <bool name="show_ongoing_ime_switcher">false</bool>
+    <bool name="skip_restoring_network_selection">true</bool>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="navigation_bar_height">30.0dip</dimen>
+    <dimen name="navigation_bar_height_landscape">30.0dip</dimen>
+    <item name="status_bar_icon_drawing_alpha" type="dimen">100.0%</item>
+    <dimen name="status_bar_icon_drawing_size">24.0dip</dimen>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/integers.xml -->
+    <eat-comment/>
+    <integer name="config_screenBrightnessDim">5</integer>
+    <integer name="config_screenBrightnessSettingMinimum">5</integer>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_description">"Change values of framework-res.apk. Tap here to configure settings."</string>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/strings_no_translate.xml -->
+    <eat-comment/>
+    <string name="app_name" translatable="false">WedyMod-res</string>
+    <string name="global_action_fullscreen_toggle" translatable="false">全画面トグル</string>
+    <string name="global_action_reboot_hotreboot" translatable="false">ホットリブート</string>
+    <string name="global_action_reboot_normal" translatable="false">再起動</string>
+    <string name="global_action_reboot_recovery" translatable="false">リカバリ</string>
+    <string name="global_action_reboot_title" translatable="false">再起動オプション</string>
+    <string name="global_action_screenrecording_split_txt">"スクリーン
+    レコード"</string>
+    <string name="global_action_screenrecording_split_txt_j">画面録画</string>
+    <string name="global_action_screenshot_split_txt">"スクリーン
+    ショット"</string>
+    <string name="global_action_screenshot_split_txt_j">画面撮影</string>
+    <!-- From: file:/D:/myuser/document/GitHub/frameworkres/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="label_autob">Lower auto brightness</string>
+    <string name="label_boost">CPU boost for overscroller fing</string>
+    <string name="label_dim">Change min brightness level to 5</string>
+    <string name="label_fixjpnz3">Fix Japanese translation for Z3</string>
+    <string name="label_fixjpnz32">Fix Japanese translation for Z3 [Alt ver]</string>
+    <string name="label_glove">Show glove mode setting</string>
+    <string name="label_hideime">Don\'t force camera sound</string>
+    <string name="label_icontext">Show text beside icon on action bar</string>
+    <string name="label_ime">"Disable \"Choose input method\" notification"</string>
+    <string name="label_ledoff">Turn off LED when charge completed</string>
+    <string name="label_lockmenu">Show menu key in lock screen</string>
+    <string name="label_lockrot">Allow rotation in lock screen</string>
+    <string name="label_monx">"Translate monXdifiedZ's power menu to Japanese"</string>
+    <string name="label_monxz1">"Translate monXdifiedZ's power menu to Japanese"</string>
+    <string name="label_navbar">Navbar 36dpi</string>
+    <string name="label_noisy">Disable warning for big volume</string>
+    <string name="label_notifbg">Make notification drawer icon bg transparent</string>
+    <string name="label_prefapn">Don\'t prefer APN</string>
+    <string name="label_purepaste">Prevent inserting spaces when pasting</string>
+    <string name="label_rebootaf">Note</string>
+    <string name="label_settings">WedyMod</string>
+    <string name="label_skipnet">"Skip restoring network mode"</string>
+    <string name="label_unplugdock">Disable auto-rotation in dock</string>
+    <string name="label_unplugon">"Don\'t turn on screen when unplug"</string>
+    <string name="label_voice">Fix cell standby problem</string>
+    <string name="label_volsound">Disable volume change sound</string>
+    <string name="mesum">"@WedyDQ10"</string>
+    <string name="nosum">You may need to reboot for changes to take effect.</string>
+    <string name="sum_autob">Reduce auto brightnesss levels by half.</string>
+    <string name="sum_boost">"Experimental, I don't know if it really works."</string>
+    <string name="sum_dim">You can change brightness to 10 in Display settings.</string>
+    <string name="sum_fixjpnz3">For Japanese language only. Change translation for power menu.</string>
+    <string name="sum_fixjpnz32">For Japanese language only. Change translation for power menu.</string>
+    <string name="sum_glove">Show glove mode setting</string>
+    <string name="sum_hideime">Show shutter sound setting in camera.</string>
+    <string name="sum_icontext">Show description of the icon on action bar.</string>
+    <string name="sum_ime">"Disable \"Choose input method\" notification when you type texts."</string>
+    <string name="sum_ledoff">Turn off LED when charging is completely finished.</string>
+    <string name="sum_lockmenu">Don\'t hide menu key in lock screen.</string>
+    <string name="sum_lockrot">You can rotate lock screen.</string>
+    <string name="sum_monx">"Translate HONAMiXZ\'s power menu to Japanese."</string>
+    <string name="sum_monxz1">"Translate Honam1Z\'s power menu to Japanese."</string>
+    <string name="sum_navbar">Change navbar height</string>
+    <string name="sum_noisy">Disable warning when you turn up the volume with headphone connected.\nBe careful not to turn up too high.</string>
+    <string name="sum_notifbg">Change color of icon background of notification drawer to transparent.</string>
+    <string name="sum_prefapn">Do not prefer APN.</string>
+    <string name="sum_purepaste">Prevent inserting spaces before and after words when you paste it.</string>
+    <string name="sum_skipnet">"Don\'t restore network mode when you change the network."</string>
+    <string name="sum_unplugdock">Disable force auto-rotation in desk/car dock mode.</string>
+    <string name="sum_unplugon">"Don\'t turn on screen automatically when you start/stop charging."</string>
+    <string name="sum_voice">Fix cell standby problem on data only SIM.</string>
+    <string name="sum_volsound">Disable sound when you change the volume.</string>
+</resources>
