@@ -4,7 +4,7 @@
     android:versionCode="23"
     android:versionName="4.7" >
 
-    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="20" />
+    <uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
 
     <application android:allowBackup="false"
         android:icon="@drawable/ic_launcher"
@@ -14,7 +14,7 @@
         <meta-data android:value="2.1*" android:name="xposedminversion" />
         <meta-data android:value="@string/app_description" android:name="xposeddescription" />
         
-        <activity android:name=".SettingActivity" android:label="@string/label_settings">
+        <activity android:name=".SettingActivity" android:label="@string/label_settings" android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

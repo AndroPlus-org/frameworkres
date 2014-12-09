@@ -2,22 +2,28 @@
 <pre-dex-items>
 
     <item
-        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\internal_impl-20.0.0-4c74393b024d99804dfabd01737635b33143618a.jar"
-        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\libs\internal_impl-20.0.0.jar"
+        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\classes-9f5ff20a4602c047941b3ae75cb5594014e8f081.jar"
+        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="e40b3078e3fbd353c9f44da8df25a8fc0078209d"/>
+        revision="21.1.1"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6"/>
     <item
-        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\classes-6c99e742c3215ddcbfd32339da98625c2d32a25f.jar"
-        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\20.0.0\classes.jar"
+        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\classes-66d0e2d414e8e788315290b2e9463480ed843960.jar"
+        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.0\classes.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="8694693636ab36910c8100ce527c258ff3ebece0"/>
+        revision="21.1.1"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136"/>
     <item
-        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\support-annotations-20.0.0-9b68fa5de2de23d0abf5d20ba3e0a64d64a35d82.jar"
-        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\20.0.0\support-annotations-20.0.0.jar"
+        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\internal_impl-21.0.0-d3a52329bc8c57621560748af5125f9760e9bd37.jar"
+        jar="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
         jumboMode="false"
-        revision="20.0.0"
-        sha1="9d9013e9ff35fc3756411e62873c363c70c638fa"/>
+        revision="21.1.1"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0"/>
+    <item
+        dex="D:\myuser\document\GitHub\frameworkres\app\build\intermediates\pre-dexed\release\support-annotations-21.0.0-942a00eae9e94bbf9436a50907fead2fcde562a3.jar"
+        jar="D:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.1"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e"/>
 
 </pre-dex-items>

@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="15"
-        android:targetSdkVersion="20" />
+        android:targetSdkVersion="21" />
 
     <application
         android:allowBackup="false"
@@ -24,7 +24,8 @@
 
         <activity
             android:name="com.wedy.mod.SettingActivity"
-            android:label="@string/label_settings" >
+            android:label="@string/label_settings"
+            android:theme="@style/AppTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
