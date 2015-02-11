@@ -97,6 +97,11 @@
 	    android:summary="@string/sum_autob"
 	    android:defaultValue="false"/>
 	    <CheckBoxPreference
+	    android:key="key_wifiband"
+	    android:title="@string/label_wifiband"
+	    android:summary="@string/sum_wifiband"
+	    android:defaultValue="false"/>
+	    <CheckBoxPreference
 	    android:key="key_fixjpnz3"
 	    android:title="@string/label_fixjpnz3"
 	    android:summary="@string/sum_fixjpnz3"

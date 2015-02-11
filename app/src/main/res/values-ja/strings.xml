@@ -50,6 +50,8 @@
     <string name="sum_fixjpnz32">電源メニューのスクリーンショット、スクリーンレコードを画面撮影、画面録画に変更します。</string>
     <string name="label_purepaste">貼り付け時に余計な空白を挿入しない</string>
     <string name="sum_purepaste">クリップボードから貼り付けたときに、前後に余計な空白を挿入しないようにします。</string>
+    <string name="label_wifiband">Wi-Fi周波数帯の選択</string>
+    <string name="sum_wifiband">使用する周波数帯をWi-Fi設定で選べるようにします。</string>
     <string name="label_rebootaf">注意</string>
     <string name="nosum">変更は再起動後に反映されます。\n一部機種によって動作しないことがあります。</string>
     <string name="mesum">"@WedyDQ10"</string>

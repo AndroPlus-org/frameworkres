@@ -28,8 +28,8 @@
     <string name="sum_unplugdock">Выключить принудительно автоповорот в настольном/автомобильном режиме док-станции.</string>
     <string name="label_lockrot">Разрешить поворот экрана блокировки</string>
     <string name="sum_lockrot">Вы можете поворачивать экран блокировки.</string>
-    <string name="label_lockmenu">Показывать кнопку "Меню" на экране блокировки</string>
-    <string name="sum_lockmenu">Не прятать кнопку "Меню" на экране блокировки</string>
+    <string name="label_lockmenu">Показывать кнопку \"Меню\" на экране блокировки</string>
+    <string name="sum_lockmenu">Не прятать кнопку \"Меню\" на экране блокировки</string>
     <string name="label_prefapn">Не предпочитать моб. интернет</string>
     <string name="sum_prefapn">Не предпочитать моб. интернет</string>
     <string name="label_hideime">Выключить звук камеры</string>

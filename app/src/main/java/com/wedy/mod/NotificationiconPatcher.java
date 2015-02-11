@@ -197,6 +197,13 @@ public class NotificationiconPatcher implements IXposedHookZygoteInit, IXposedHo
 					modRes.fwd(R.array.config_autoBrightnessLcdBacklightValues));
 		}
 		
+		boolean isWifiband = preference.getBoolean("key_wifiband", false);
+
+		if (isWifiband) {
+			XResources.setSystemWideReplacement("android", "bool",
+					"config_wifi_dual_band_support",
+					true);
+		}
 		
 		boolean isMonxs = preference.getBoolean("key_monx", false);
 
